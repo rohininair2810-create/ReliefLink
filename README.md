@@ -1,32 +1,17 @@
-# React + TypeScript + Vite
+﻿# ReliefLink
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+ReliefLink is a disaster response and coordination platform designed to connect people affected by emergencies with volunteers, authorities, and relief resources.
 
-Currently, two official plugins are available:
+## Core Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- Victim portal for reporting emergencies and requesting assistance.
+- Volunteer portal for participating in relief operations.
+- Authority portal for managing requests and coordinating responses.
+- Emergency verification and prioritization.
+- Interactive disaster hotspot map.
+- Relief camp, hospital, and resource center tracking.
+- Separate donor portal for relief contributions.
 
-## React Compiler
+## Development
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the Oxlint configuration
-
-If you are developing a production application, we recommend enabling type-aware lint rules by installing `oxlint-tsgolint` and editing `.oxlintrc.json`:
-
-```json
-{
-  "$schema": "./node_modules/oxlint/configuration_schema.json",
-  "plugins": ["react", "typescript", "oxc"],
-  "options": {
-    "typeAware": true
-  },
-  "rules": {
-    "react/rules-of-hooks": "error",
-    "react/only-export-components": ["warn", { "allowConstantExport": true }]
-  }
-}
-```
-
-See the [Oxlint rules documentation](https://oxc.rs/docs/guide/usage/linter/rules) for the full list of rules and categories.
+This project is under active development.
